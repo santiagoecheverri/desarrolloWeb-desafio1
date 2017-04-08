@@ -1,0 +1,176 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  margin: auto;
+  color: white;
+  font-family: Open Sans,Arial;
+  font-size: 12px;
+}
+
+button {
+  background: #ff4842;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  padding: 8px 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.header {
+  background: #1c3643;
+  height: 60px;
+}
+
+.logotipo {
+  display: inline-block;
+  left: 10px;
+  padding-top: 15px;
+  margin-left: 10px;
+}
+
+.main-menu {
+    display: inline-block;
+    right: 0;
+    position: absolute;
+}
+
+.main-menu a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: white;
+  padding: 0 10px;
+}
+
+.portada img {
+  margin-top: 20px;
+  max-width: 100%;
+  z-index: 2;
+  height: auto;
+  position: relative;
+}
+
+.info-box {
+  max-width: 400px;
+  max-height: 100px;
+  background: rgba(217, 216, 214, .8);
+  width: auto;
+  height: auto;
+  padding: 5px 10px;
+  margin: 0;
+  z-index: 3;
+  position: absolute;
+  margin-top: -18%;
+  margin-left: 9%;
+}
+
+.info-box p {
+  margin: 0;
+  border-bottom: 1px solid white;
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.box-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-footer p {
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+}
+
+.section-article {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.article {
+  height: 100%;
+  position: relative;
+}
+
+.article-box {
+  width: 33%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: inline-block;
+}
+
+.article-box img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+
+.article-title {
+  color: #515151;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #515151;
+}
+
+.article-title p{
+  margin: 10px 0 0 0;
+}
+
+.article-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-footer p {
+  color: #515151;
+  margin-top: 5px;
+}
+
+.footer {
+  clear: both;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #515151;
+  height: auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.footer p {
+  margin: 0 20px 0 0;
+  display: inline;
+}
+
+.footer-nav {
+    display: inline;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #515151;
+}
+
+.next:after {
+  content: " >";
+  line-height: 10px;
+}
+
+.f-box, .next {
+  border: 1px solid #515151;
+  background: #eaeaea;
+  padding: 3px 5px;
+}
+
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 500px) {
+
+}
